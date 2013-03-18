@@ -13,6 +13,6 @@ Your Phonegap / Cordova app needs more persistent cookie based sessions.
        plugins.cookieJar.restoreCookiesForDomain("your-domain.com");
 
        // ... somewhere after those cookies are no good anymore
-       plugins.cookieJar.emptyCookiesForDomain("your-domains.com");
+       plugins.cookieJar.emptyCookiesForDomain("your-domain.com");
 
     </script>
