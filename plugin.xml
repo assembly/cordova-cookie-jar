@@ -1,0 +1,12 @@
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="is.assembly.cordova-cookie-jar"
+	version="1.0.0">
+	<name>Cordova Cookie Jar</name>
+	<asset src="www/cordova-cookie-jar.js" target="cordova-cookie-jar" />
+	<platform name="ios">
+		<plugins-plist key="CDVCookieJar" string="CDVCookieJar" />
+		<header-file src="CDVCookieJar.h" />
+		<source-file src="CDVCookieJar.m" />
+	</platform>
+</plugin>
